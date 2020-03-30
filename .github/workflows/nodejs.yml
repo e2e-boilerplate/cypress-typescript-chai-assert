@@ -1,4 +1,4 @@
-name: cypress-typescript-webpack-chai-assert
+name: cypress-typescript-chai-assert
 'on':
   push: null
   schedule:
