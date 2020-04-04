@@ -7,6 +7,7 @@ describe("Sandbox", () => {
     cy.title().then((title) => {
       assert.equal(title, "Sandbox");
     });
+
     cy.get("h1")
       .invoke("text")
       .then((header) => {
